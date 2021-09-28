@@ -46,17 +46,7 @@ export const addDictFB = (dict) => {
 	}
 }
 
-// export const updateDictFB = (dict) => {
-// 	return function(dispatch, getState){
-// 		const _dict_data = getState().dict.list[dict];
-		
-// 		let dict_data = {..._dict_data};
 
-// 		dict_db.doc(dict_data.id).update(dict_data).then(docRef => {
-// 			dispatch(updateDictFB(dict));
-// 		});
-// 	}
-// }
 
 //Reducer
 export default function reducer(state = initialState, action = {}) {
